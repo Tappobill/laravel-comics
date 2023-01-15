@@ -1,1 +1,161 @@
-//
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.header {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-head {
+    display: flex;
+    margin-top: 35px;
+
+    li {
+        margin: 0 30px;
+        padding: 10px;
+        font-size: 10px;
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+    }    
+}
+
+a:hover{
+    color: cornflowerblue;
+    cursor: pointer;
+    padding-bottom: 40px;
+    border-bottom: 5px solid #0C7CEC;
+}
+
+.main-2 {
+    width: 80%;
+    margin: auto;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    color: white;
+    font-size: 10px;
+    margin-right: 20px;
+}
+
+#jumbo {
+    // background-image: url("../../public/images/jumbotron.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.black {
+    background-color: #262626;
+    text-align: start;
+    color: white;
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.blue {
+    background-color: #0C7CEC;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 15%;
+        margin-right: 10px;
+    }
+}
+
+.foot {
+    // background-image: url(../assets/img/footer-bg.jpg);
+    text-align: start;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foot-1 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.liste-foot {
+    display: flex;
+    padding-bottom: 50px;
+    width: 50%;
+}
+
+.div-lista {
+    padding-top: 50px;
+    margin-right: 50px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ul {
+    margin-top: 15px;
+}
+
+li {
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.img-dc {
+    // background-image: url(../assets/img/dc-logo-bg.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-dc-padre {
+    width: 80%;
+}
+
+.bg-gray{
+    background-color: #262626;
+}
+
+.foot-2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.follow{
+    display: flex;
+    align-items: center;
+    color: #0C7CEC;
+    font-weight: bold;
+
+    img{
+        margin: 0 10px;
+    }
+}
+
+button{
+    border: 1px solid #0C7CEC;
+    background-color: #262626;
+    color: white;
+    padding: 15px;
+}
