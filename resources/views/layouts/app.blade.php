@@ -14,7 +14,7 @@
         @include('components.header')
 
     </header>
-    <main>
+    <main class="black">
         @yield('main-content')
         @include('components.main')
     </main>
